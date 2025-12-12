@@ -31,6 +31,18 @@
     {
       "id": "Cage",
       "isDefault": false
+    },
+    {
+      "id": "Controller",
+      "isDefault": false
+    },
+    {
+      "id": "Access",
+      "isDefault": false
+    },
+    {
+      "id": "Airflow",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

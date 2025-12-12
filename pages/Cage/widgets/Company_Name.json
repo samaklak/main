@@ -2,7 +2,7 @@
   "animateLoading": true,
   "backgroundColor": "#18181b",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 3,
+  "bottomRow": 5,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -44,10 +44,10 @@
   "text": "SANSILO",
   "textAlign": "CENTER",
   "textColor": "#ffffff",
-  "topRow": -1,
+  "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "m0zmisikhn",
+  "widgetId": "tk7j7ad4mp",
   "widgetName": "Company_Name"
 }

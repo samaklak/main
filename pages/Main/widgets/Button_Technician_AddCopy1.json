@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
-  "borderRadius": "1.5rem",
-  "bottomRow": 7,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 44,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -9,6 +9,9 @@
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -17,12 +20,12 @@
   "isLoading": false,
   "isVisible": true,
   "key": "sua98nq2yv",
-  "leftColumn": 48,
+  "leftColumn": 57,
   "minWidth": 120,
-  "mobileBottomRow": 8,
-  "mobileLeftColumn": 49,
-  "mobileRightColumn": 64,
-  "mobileTopRow": 4,
+  "mobileBottomRow": 45,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 48,
+  "mobileTopRow": 41,
   "needsErrorInfo": false,
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -32,11 +35,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 63,
-  "text": "Submit",
-  "topRow": 3,
+  "rightColumn": 62,
+  "text": "+",
+  "topRow": 40,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "kiativz0rq",
-  "widgetName": "Button2"
+  "widgetId": "xjy7wfi6qx",
+  "widgetName": "Button_Technician_AddCopy1"
 }
