@@ -50,7 +50,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "serverSideFiltering": false,
-  "sourceData": "{{Visual_Inspection.data}}",
+  "sourceData": "{{Get_VisualInspection.data}}",
   "topRow": 94,
   "type": "SELECT_WIDGET",
   "version": 1,

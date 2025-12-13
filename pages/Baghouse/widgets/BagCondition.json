@@ -50,7 +50,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "serverSideFiltering": false,
-  "sourceData": "{{Bag_Condition.data}}",
+  "sourceData": "{{Get_BagCondition.data}}",
   "topRow": 87,
   "type": "SELECT_WIDGET",
   "version": 1,

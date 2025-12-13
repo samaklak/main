@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "693d011ae10968062f21244e_6f8be634-903d-403f-9259-ed92757209ce",
-  "id": "Baghouse_Bag_Condition",
+  "gitSyncId": "693d011ae10968062f21244e_7fdfe508-80e1-4bc4-995c-3f6b76d31f1d",
+  "id": "Baghouse_Get_VisualInspection",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -29,7 +29,7 @@
           "data": ""
         },
         "sheetName": {
-          "data": "BagCondition"
+          "data": "VisualInspection"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1_fTmkIlrtUMxWarRXM4wvoDep_OyUFfQmdY80Z7L7cI/edit"
@@ -70,7 +70,7 @@
       "pluginId": "google-sheets-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "Bag_Condition",
+    "name": "Get_VisualInspection",
     "pageId": "Baghouse",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
