@@ -3,23 +3,32 @@
   "borderRadius": "1.5rem",
   "bottomRow": 13,
   "boxShadow": "none",
-  "buttonColor": "#7f1d1d",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
-  "dynamicBindingPathList": [],
-  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "rf69kvpbrv",
-  "leftColumn": 32,
+  "leftColumn": 1,
   "minWidth": 120,
   "mobileBottomRow": 12,
-  "mobileLeftColumn": 33,
-  "mobileRightColumn": 49,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 15,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Access', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -28,11 +37,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 48,
-  "text": "Unused",
+  "rightColumn": 16,
+  "text": "Access",
   "topRow": 9,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "kije41q1eh",
-  "widgetName": "Button_Unused1"
+  "widgetId": "31qgtruwp0",
+  "widgetName": "Menu_Access"
 }

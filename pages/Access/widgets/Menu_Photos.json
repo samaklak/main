@@ -7,19 +7,24 @@
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "rf69kvpbrv",
-  "leftColumn": 48,
+  "leftColumn": 32,
   "minWidth": 120,
   "mobileBottomRow": 12,
-  "mobileLeftColumn": 48,
-  "mobileRightColumn": 64,
+  "mobileLeftColumn": 33,
+  "mobileRightColumn": 49,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Photos', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -28,11 +33,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 64,
-  "text": "Summary",
+  "rightColumn": 48,
+  "text": "Photos",
   "topRow": 9,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "4u15iehxon",
-  "widgetName": "Button_Unused2"
+  "widgetId": "vmss2y9pok",
+  "widgetName": "Menu_Photos"
 }

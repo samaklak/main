@@ -11,7 +11,11 @@
       "key": "buttonColor"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -24,6 +28,7 @@
   "mobileRightColumn": 49,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Photos', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,

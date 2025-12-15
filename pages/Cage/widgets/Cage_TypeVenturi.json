@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -40,6 +44,7 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 24,
   "needsErrorInfo": false,
+  "onOptionChange": "{{storeValue('SavedCageTypeVenturi', Cage_TypeVenturi.selectedOptionValue);}}",
   "optionLabel": "CageVenturi",
   "optionValue": "CageVenturi",
   "parentColumnSpace": 6.84375,
@@ -55,5 +60,5 @@
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "an8qp74bo8",
-  "widgetName": "Cage_Venturi"
+  "widgetName": "Cage_TypeVenturi"
 }

@@ -3,14 +3,10 @@
   "borderRadius": "1.5rem",
   "bottomRow": 13,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#7f1d1d",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
-  "dynamicBindingPathList": [
-    {
-      "key": "buttonColor"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -21,14 +17,14 @@
   "isLoading": false,
   "isVisible": true,
   "key": "rf69kvpbrv",
-  "leftColumn": 16,
+  "leftColumn": 48,
   "minWidth": 120,
   "mobileBottomRow": 12,
-  "mobileLeftColumn": 16,
-  "mobileRightColumn": 32,
+  "mobileLeftColumn": 48,
+  "mobileRightColumn": 64,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Airflow', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('Summary', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -37,11 +33,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 32,
-  "text": "Airflow\n",
+  "rightColumn": 64,
+  "text": "Summary",
   "topRow": 9,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "h0x4supm6l",
-  "widgetName": "Button_Airflow"
+  "widgetId": "mldido4tuy",
+  "widgetName": "Menu_Summary"
 }
