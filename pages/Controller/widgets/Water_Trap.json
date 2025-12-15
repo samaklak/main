@@ -1,51 +1,59 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "autoFocus": false,
   "borderRadius": "1.5rem",
-  "bottomRow": 121,
+  "bottomRow": 142,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
   "dynamicTriggerPathList": [],
-  "iconAlign": "left",
-  "inputType": "TEXT",
   "isDisabled": false,
+  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "0m30ia85jg",
-  "label": "ControllerType",
+  "key": "sywozllp5l",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "",
+  "labelText": "Water Trap / Autodrain",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 121,
+  "mobileBottomRow": 142,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 20,
-  "mobileTopRow": 114,
+  "mobileTopRow": 135,
   "needsErrorInfo": false,
+  "optionLabel": "WaterTrap",
+  "optionValue": "WaterTrap",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
+  "placeholderText": "Select option",
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
-  "showStepArrows": false,
-  "topRow": 114,
-  "type": "INPUT_WIDGET_V2",
-  "version": 2,
-  "widgetId": "s8qhkovl0h",
-  "widgetName": "ControllerType"
+  "rightColumn": 63,
+  "serverSideFiltering": false,
+  "sourceData": "{{Get_WaterTrap.data}}",
+  "topRow": 135,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "bl0p10j2jo",
+  "widgetName": "Water_Trap"
 }

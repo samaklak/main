@@ -1,51 +1,59 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "autoFocus": false,
   "borderRadius": "1.5rem",
-  "bottomRow": 58,
+  "bottomRow": 135,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
   "dynamicTriggerPathList": [],
-  "iconAlign": "left",
-  "inputType": "TEXT",
   "isDisabled": false,
+  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "88gf23vpr2",
-  "label": "Cleaning Pressure (bar)",
+  "key": "sywozllp5l",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "",
+  "labelText": "Air Quality",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 59,
+  "mobileBottomRow": 135,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 19,
-  "mobileTopRow": 52,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 128,
   "needsErrorInfo": false,
+  "optionLabel": "AirQuality",
+  "optionValue": "AirQuality",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
+  "placeholderText": "Select option",
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "showStepArrows": false,
-  "topRow": 51,
-  "type": "INPUT_WIDGET_V2",
-  "version": 2,
-  "widgetId": "t8kkyfkkcb",
-  "widgetName": "CleaningPressure"
+  "serverSideFiltering": false,
+  "sourceData": "{{Get_AirQuality.data}}",
+  "topRow": 128,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "88lt6u508v",
+  "widgetName": "Air_Quality"
 }
