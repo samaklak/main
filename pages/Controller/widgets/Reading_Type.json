@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -40,6 +44,7 @@
   "mobileRightColumn": 9,
   "mobileTopRow": 25,
   "needsErrorInfo": false,
+  "onOptionChange": "{{storeValue('SavedReadingType', Reading_Type.selectedOptionValue);}}",
   "optionLabel": "ReadingType",
   "optionValue": "ReadingType",
   "parentColumnSpace": 6.84375,

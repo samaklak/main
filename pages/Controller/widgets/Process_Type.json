@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -40,6 +44,7 @@
   "mobileRightColumn": 19,
   "mobileTopRow": 45,
   "needsErrorInfo": false,
+  "onOptionChange": "{{storeValue('SavedProcessType', Process_Type.selectedOptionValue);}}",
   "optionLabel": "ProcessType",
   "optionValue": "ProcessType",
   "parentColumnSpace": 6.84375,

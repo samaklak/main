@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -40,6 +44,7 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 32,
   "needsErrorInfo": false,
+  "onOptionChange": "{{storeValue('SavedMeterOperational', Meter_Operational.selectedOptionValue);}}",
   "optionLabel": "MeterOperational",
   "optionValue": "MeterOperational",
   "parentColumnSpace": 6.84375,

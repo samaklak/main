@@ -12,7 +12,11 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
   "iconAlign": "left",
   "inputType": "TEXT",
   "isDisabled": false,
@@ -35,6 +39,7 @@
   "mobileRightColumn": 13,
   "mobileTopRow": 39,
   "needsErrorInfo": false,
+  "onTextChanged": "{{storeValue('SavedBagHouseTempCont', BagHouse_TemperatureCont.text);}}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,

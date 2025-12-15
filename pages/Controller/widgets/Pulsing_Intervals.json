@@ -12,7 +12,11 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
   "iconAlign": "left",
   "inputType": "TEXT",
   "isDisabled": false,
@@ -20,7 +24,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "88gf23vpr2",
-  "label": "Pulsing Interval (sec.)",
+  "label": "Pulsing Intervals (sec.)",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
@@ -35,6 +39,7 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 59,
   "needsErrorInfo": false,
+  "onTextChanged": "{{storeValue('SavedPulsingIntervals', Pulsing_Intervals.text);}}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
