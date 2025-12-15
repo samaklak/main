@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "693d011ae10968062f21244e_4b4a63fa-22c9-49e9-ab8d-aab1f0be2fb8",
-  "id": "Cage_Api1",
+  "gitSyncId": "693bde3743833f56ddf6f76d_8f420d43-4f74-4215-a6a8-dea89413d8f8",
+  "id": "Baghouse_Get_CellPlateFinish",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -29,7 +29,7 @@
           "data": ""
         },
         "sheetName": {
-          "data": "CageFinish"
+          "data": "CellPlateFinish"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1_fTmkIlrtUMxWarRXM4wvoDep_OyUFfQmdY80Z7L7cI/edit"
@@ -70,9 +70,9 @@
       "pluginId": "google-sheets-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "Api1",
-    "pageId": "Cage",
-    "runBehaviour": "MANUAL",
+    "name": "Get_CellPlateFinish",
+    "pageId": "Baghouse",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }

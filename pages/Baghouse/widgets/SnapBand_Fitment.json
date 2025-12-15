@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 101,
+  "bottomRow": 108,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -28,20 +32,21 @@
   "key": "wu7povquaj",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Visual Inspection",
+  "labelText": "Snap Band Fitment",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 101,
+  "mobileBottomRow": 108,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 17,
-  "mobileTopRow": 94,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 101,
   "needsErrorInfo": false,
-  "optionLabel": "VisualInspection",
-  "optionValue": "VisualInspection",
+  "onOptionChange": "{{storeValue('SavedSnapBandFitment', SnapBand_Fitment.selectedOptionValue);}}",
+  "optionLabel": "SnapBandFitment",
+  "optionValue": "SnapBandFitment",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -50,10 +55,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "serverSideFiltering": false,
-  "sourceData": "{{Get_VisualInspection.data}}",
-  "topRow": 94,
+  "sourceData": "{{Get_SnapBandFitment.data}}",
+  "topRow": 101,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "e40emkg7kd",
-  "widgetName": "VisualInspection"
+  "widgetId": "q8x6pgppmn",
+  "widgetName": "SnapBand_Fitment"
 }

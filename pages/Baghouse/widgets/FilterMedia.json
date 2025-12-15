@@ -19,7 +19,14 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "onDropdownOpen"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -40,6 +47,8 @@
   "mobileRightColumn": 13,
   "mobileTopRow": 66,
   "needsErrorInfo": false,
+  "onDropdownOpen": "{{storeValue('SavedFilterMediaType', FilterMedia.selectedOptionValue);}}",
+  "onOptionChange": "{{storeValue(\"\", \"\")}}",
   "optionLabel": "FilterMediaType",
   "optionValue": "FilterMediaType",
   "parentColumnSpace": 6.84375,

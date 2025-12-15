@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 45,
+  "bottomRow": 101,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -28,20 +32,21 @@
   "key": "wu7povquaj",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Venturi",
+  "labelText": "Visual Inspection",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 31,
+  "mobileBottomRow": 101,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 20,
-  "mobileTopRow": 24,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 94,
   "needsErrorInfo": false,
-  "optionLabel": "CageVenturi",
-  "optionValue": "CageVenturi",
+  "onOptionChange": "{{storeValue('SavedVisualInspection', Visual_Inspection.selectedOptionValue);}}",
+  "optionLabel": "VisualInspection",
+  "optionValue": "VisualInspection",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -50,10 +55,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "serverSideFiltering": false,
-  "sourceData": "{{Get_CageVenturi.data}}",
-  "topRow": 38,
+  "sourceData": "{{Get_VisualInspection.data}}",
+  "topRow": 94,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "an8qp74bo8",
-  "widgetName": "CageVenturi"
+  "widgetId": "e40emkg7kd",
+  "widgetName": "Visual_Inspection"
 }

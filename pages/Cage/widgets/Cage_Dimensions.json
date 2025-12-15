@@ -1,59 +1,51 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
+  "autoFocus": false,
   "borderRadius": "1.5rem",
-  "bottomRow": 94,
+  "bottomRow": 24,
   "boxShadow": "none",
-  "defaultOptionValue": "",
+  "defaultText": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "sourceData"
-    }
-  ],
   "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "inputType": "TEXT",
   "isDisabled": false,
-  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "wu7povquaj",
+  "key": "88gf23vpr2",
+  "label": "Cage Dimensions\t",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Bag Condition",
+  "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 94,
+  "mobileBottomRow": 25,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 17,
-  "mobileTopRow": 87,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "optionLabel": "BagCondition",
-  "optionValue": "BagCondition",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
-  "placeholderText": "Select option",
   "renderMode": "CANVAS",
+  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "serverSideFiltering": false,
-  "sourceData": "{{Get_BagCondition.data}}",
-  "topRow": 87,
-  "type": "SELECT_WIDGET",
-  "version": 1,
-  "widgetId": "y9n3goqw8o",
-  "widgetName": "BagCondition"
+  "showStepArrows": false,
+  "topRow": 17,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "9jgnik3uua",
+  "widgetName": "Cage_Dimensions"
 }

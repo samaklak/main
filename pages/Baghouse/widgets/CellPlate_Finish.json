@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -40,8 +44,9 @@
   "mobileRightColumn": 11,
   "mobileTopRow": 73,
   "needsErrorInfo": false,
-  "optionLabel": "Finish",
-  "optionValue": "Finish",
+  "onOptionChange": "{{storeValue('SavedCellPlateFinish', 'CellPlate_');}}",
+  "optionLabel": "CellPlateFinish",
+  "optionValue": "CellPlateFinish",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -50,10 +55,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "serverSideFiltering": false,
-  "sourceData": "{{Get_Finish.data}}",
+  "sourceData": "{{Get_CellPlateFinish.data}}",
   "topRow": 73,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "2hsgtjkt53",
-  "widgetName": "Finish"
+  "widgetName": "CellPlate_Finish"
 }

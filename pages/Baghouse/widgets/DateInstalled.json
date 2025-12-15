@@ -14,7 +14,11 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDateSelected"
+    }
+  ],
   "firstDayOfWeek": 0,
   "isDisabled": false,
   "isLoading": false,
@@ -37,6 +41,7 @@
   "mobileRightColumn": 9,
   "mobileTopRow": 80,
   "needsErrorInfo": false,
+  "onDateSelected": "{{storeValue('SavedCellPlateInstallationDate', 'C');}}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,

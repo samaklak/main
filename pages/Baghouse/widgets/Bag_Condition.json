@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 52,
+  "bottomRow": 94,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -28,20 +32,21 @@
   "key": "wu7povquaj",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Cage Finish",
+  "labelText": "Bag Condition",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 52,
+  "mobileBottomRow": 94,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 9,
-  "mobileTopRow": 45,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 87,
   "needsErrorInfo": false,
-  "optionLabel": "CageFinish",
-  "optionValue": "CageFinish",
+  "onOptionChange": "{{storeValue('SavedBagCondition', Bag_Condition.selectedOptionValue);}}",
+  "optionLabel": "BagCondition",
+  "optionValue": "BagCondition",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -50,10 +55,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "serverSideFiltering": false,
-  "sourceData": "{{Get_CageFinish.data}}",
-  "topRow": 45,
+  "sourceData": "{{Get_BagCondition.data}}",
+  "topRow": 87,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "6sef00xc5f",
-  "widgetName": "CageFinish"
+  "widgetId": "y9n3goqw8o",
+  "widgetName": "Bag_Condition"
 }
