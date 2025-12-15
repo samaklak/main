@@ -1,51 +1,59 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "autoFocus": false,
   "borderRadius": "1.5rem",
-  "bottomRow": 93,
+  "bottomRow": 100,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
   "dynamicTriggerPathList": [],
-  "iconAlign": "left",
-  "inputType": "TEXT",
   "isDisabled": false,
+  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "88gf23vpr2",
-  "label": "SolenoidValvesVoltage",
+  "key": "wu7povquaj",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "",
+  "labelText": "Pulsing Valves (Working)",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 93,
+  "mobileBottomRow": 100,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 18,
-  "mobileTopRow": 86,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 93,
   "needsErrorInfo": false,
+  "optionLabel": "PulsingValvesWorking",
+  "optionValue": "PulsingValvesWorking",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
+  "placeholderText": "Select option",
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "showStepArrows": false,
-  "topRow": 86,
-  "type": "INPUT_WIDGET_V2",
-  "version": 2,
-  "widgetId": "oeiomqxjx2",
-  "widgetName": "Input1"
+  "serverSideFiltering": false,
+  "sourceData": "{{Get_PulsingValvesWorking.data}}",
+  "topRow": 93,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "m224u5xppe",
+  "widgetName": "PulsingValvesWorking"
 }

@@ -1,51 +1,59 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "autoFocus": false,
   "borderRadius": "1.5rem",
-  "bottomRow": 114,
+  "bottomRow": 156,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
   "dynamicTriggerPathList": [],
-  "iconAlign": "left",
-  "inputType": "TEXT",
   "isDisabled": false,
+  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "88gf23vpr2",
-  "label": "Pulsing Valves (Size)",
+  "key": "sywozllp5l",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "",
+  "labelText": "Hopper",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 114,
+  "mobileBottomRow": 156,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 11,
-  "mobileTopRow": 107,
+  "mobileRightColumn": 12,
+  "mobileTopRow": 149,
   "needsErrorInfo": false,
+  "optionLabel": "Hopper",
+  "optionValue": "Hopper",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
+  "placeholderText": "Select option",
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
-  "showStepArrows": false,
-  "topRow": 107,
-  "type": "INPUT_WIDGET_V2",
-  "version": 2,
-  "widgetId": "i25dnomm79",
-  "widgetName": "Input3"
+  "rightColumn": 63,
+  "serverSideFiltering": false,
+  "sourceData": "{{Get_Hopper.data}}",
+  "topRow": 149,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "g2xqu5lqu4",
+  "widgetName": "Select2"
 }

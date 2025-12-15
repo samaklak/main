@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "1.5rem",
-  "bottomRow": 52,
+  "bottomRow": 114,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -12,19 +12,15 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [
-    {
-      "key": "onTextChanged"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "iconAlign": "left",
   "inputType": "TEXT",
   "isDisabled": false,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "qvxh0pe433",
-  "label": "Bag Dimensions",
+  "key": "88gf23vpr2",
+  "label": "Pulsing Valves (Size)",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
@@ -34,12 +30,11 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 52,
+  "mobileBottomRow": 114,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 19,
-  "mobileTopRow": 45,
+  "mobileRightColumn": 11,
+  "mobileTopRow": 107,
   "needsErrorInfo": false,
-  "onTextChanged": "{{storeValue('SavedBagDimensions', Bag_Dimensions.text);}}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -48,9 +43,9 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "showStepArrows": false,
-  "topRow": 45,
+  "topRow": 107,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "apjpa4704h",
-  "widgetName": "Bag_Dimensions"
+  "widgetId": "i25dnomm79",
+  "widgetName": "PulsingValvesSize"
 }

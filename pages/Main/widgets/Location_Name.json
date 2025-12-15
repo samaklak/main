@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -40,6 +44,7 @@
   "mobileRightColumn": 41,
   "mobileTopRow": 13,
   "needsErrorInfo": false,
+  "onOptionChange": "{{storeValue('SavedLocation', Location_Name.selectedOptionValue);}}",
   "optionLabel": "Location_Name",
   "optionValue": "Location_Name",
   "parentColumnSpace": 11.90625,

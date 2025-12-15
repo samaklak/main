@@ -1,56 +1,59 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "autoFocus": false,
   "borderRadius": "1.5rem",
-  "bottomRow": 52,
+  "bottomRow": 128,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [
+  "dynamicPropertyPathList": [
     {
-      "key": "onTextChanged"
+      "key": "sourceData"
     }
   ],
-  "iconAlign": "left",
-  "inputType": "TEXT",
+  "dynamicTriggerPathList": [],
   "isDisabled": false,
+  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "qvxh0pe433",
-  "label": "Bag Dimensions",
+  "key": "sywozllp5l",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "",
+  "labelText": "Controller Working",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 52,
+  "mobileBottomRow": 128,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 19,
-  "mobileTopRow": 45,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 121,
   "needsErrorInfo": false,
-  "onTextChanged": "{{storeValue('SavedBagDimensions', Bag_Dimensions.text);}}",
+  "optionLabel": "ControllerWorking",
+  "optionValue": "ControllerWorking",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
+  "placeholderText": "Select option",
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "showStepArrows": false,
-  "topRow": 45,
-  "type": "INPUT_WIDGET_V2",
-  "version": 2,
-  "widgetId": "apjpa4704h",
-  "widgetName": "Bag_Dimensions"
+  "serverSideFiltering": false,
+  "sourceData": "{{Get_ControllerWorking.data}}",
+  "topRow": 121,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "bwpbydyr47",
+  "widgetName": "ControllerWorking"
 }

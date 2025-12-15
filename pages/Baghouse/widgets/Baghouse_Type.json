@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -40,6 +44,7 @@
   "mobileRightColumn": 18,
   "mobileTopRow": 17,
   "needsErrorInfo": false,
+  "onOptionChange": "{{storeValue('SavedBagHouseType', Baghouse_Type.selectedOptionValue);}}",
   "optionLabel": "Baghouse_Type",
   "optionValue": "Baghouse_Type",
   "parentColumnSpace": 6.84375,

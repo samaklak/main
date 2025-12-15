@@ -1,12 +1,12 @@
 {
-  "gitSyncId": "693bde3743833f56ddf6f76d_8980e028-0ab8-46dd-88d3-9bed819c37ac",
+  "gitSyncId": "693d011ae10968062f21244e_dcbee980-d210-4dc4-9713-daab2a9b8886",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1560,
+          "bottomRow": 640,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Controller",
-    "slug": "controller"
+    "name": "Summary",
+    "slug": "summary"
   }
 }

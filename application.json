@@ -43,6 +43,10 @@
     {
       "id": "Airflow",
       "isDefault": false
+    },
+    {
+      "id": "Summary",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

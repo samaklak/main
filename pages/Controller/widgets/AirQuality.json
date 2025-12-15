@@ -1,56 +1,59 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "autoFocus": false,
   "borderRadius": "1.5rem",
-  "bottomRow": 52,
+  "bottomRow": 135,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [
+  "dynamicPropertyPathList": [
     {
-      "key": "onTextChanged"
+      "key": "sourceData"
     }
   ],
-  "iconAlign": "left",
-  "inputType": "TEXT",
+  "dynamicTriggerPathList": [],
   "isDisabled": false,
+  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "qvxh0pe433",
-  "label": "Bag Dimensions",
+  "key": "sywozllp5l",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "",
+  "labelText": "Air Quality",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 52,
+  "mobileBottomRow": 135,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 19,
-  "mobileTopRow": 45,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 128,
   "needsErrorInfo": false,
-  "onTextChanged": "{{storeValue('SavedBagDimensions', Bag_Dimensions.text);}}",
+  "optionLabel": "AirQuality",
+  "optionValue": "AirQuality",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
+  "placeholderText": "Select option",
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "showStepArrows": false,
-  "topRow": 45,
-  "type": "INPUT_WIDGET_V2",
-  "version": 2,
-  "widgetId": "apjpa4704h",
-  "widgetName": "Bag_Dimensions"
+  "serverSideFiltering": false,
+  "sourceData": "{{Get_AirQuality.data}}",
+  "topRow": 128,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "88lt6u508v",
+  "widgetName": "AirQuality"
 }

@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -40,6 +44,7 @@
   "mobileRightColumn": 24,
   "mobileTopRow": 15,
   "needsErrorInfo": false,
+  "onOptionChange": "{{storeValue('SavedSite', Site_Name.selectedOptionValue);}}",
   "optionLabel": "Site_Name",
   "optionValue": "Site_Name",
   "originalBottomRow": 27,
