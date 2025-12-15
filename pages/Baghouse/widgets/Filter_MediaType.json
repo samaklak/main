@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 80,
+  "bottomRow": 73,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -22,6 +22,9 @@
   "dynamicTriggerPathList": [
     {
       "key": "onOptionChange"
+    },
+    {
+      "key": "onDropdownOpen"
     }
   ],
   "isDisabled": false,
@@ -32,21 +35,22 @@
   "key": "t20lmjk4u6",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Finish",
+  "labelText": "Filter Media Type",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 80,
+  "mobileBottomRow": 73,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 11,
-  "mobileTopRow": 73,
+  "mobileRightColumn": 13,
+  "mobileTopRow": 66,
   "needsErrorInfo": false,
-  "onOptionChange": "{{storeValue('SavedCellPlateFinish', CellPlate_Finish.selectedOptionValue);}}",
-  "optionLabel": "CellPlateFinish",
-  "optionValue": "CellPlateFinish",
+  "onDropdownOpen": "",
+  "onOptionChange": "{{storeValue('SavedFilterMediaType', Filter_MediaType.selectedOptionValue);}}",
+  "optionLabel": "FilterMediaType",
+  "optionValue": "FilterMediaType",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -55,10 +59,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "serverSideFiltering": false,
-  "sourceData": "{{Get_CellPlateFinish.data}}",
-  "topRow": 73,
+  "sourceData": "{{Get_FilterMediaType.data}}",
+  "topRow": 66,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "2hsgtjkt53",
-  "widgetName": "CellPlate_Finish"
+  "widgetId": "k142ujjj5w",
+  "widgetName": "Filter_MediaType"
 }

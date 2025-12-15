@@ -47,6 +47,10 @@
     {
       "id": "Summary",
       "isDefault": false
+    },
+    {
+      "id": "Photos",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

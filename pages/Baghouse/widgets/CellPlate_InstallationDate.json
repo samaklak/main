@@ -2,63 +2,57 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 80,
+  "bottomRow": 87,
   "boxShadow": "none",
-  "defaultOptionValue": "",
+  "closeOnSelection": true,
+  "dateFormat": "YYYY-MM-DD",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "2025-12-12T14:18:03.033+02:00",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "sourceData"
-    }
-  ],
   "dynamicTriggerPathList": [
     {
-      "key": "onOptionChange"
+      "key": "onDateSelected"
     }
   ],
+  "firstDayOfWeek": 0,
   "isDisabled": false,
-  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "t20lmjk4u6",
+  "key": "q97hf7sr78",
+  "label": "Date Installed (if known)",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Finish",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
+  "maxDate": "2121-12-31T18:29:00.000Z",
   "maxDynamicHeight": 9000,
+  "minDate": "1920-12-31T18:30:00.000Z",
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 80,
+  "mobileBottomRow": 87,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 11,
-  "mobileTopRow": 73,
+  "mobileRightColumn": 9,
+  "mobileTopRow": 80,
   "needsErrorInfo": false,
-  "onOptionChange": "{{storeValue('SavedCellPlateFinish', CellPlate_Finish.selectedOptionValue);}}",
-  "optionLabel": "CellPlateFinish",
-  "optionValue": "CellPlateFinish",
+  "onDateSelected": "{{storeValue('SavedCellPlateInstallationDate', CellPlate_InstallationDate.selectedDate);}}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
-  "placeholderText": "Select option",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "serverSideFiltering": false,
-  "sourceData": "{{Get_CellPlateFinish.data}}",
-  "topRow": 73,
-  "type": "SELECT_WIDGET",
-  "version": 1,
-  "widgetId": "2hsgtjkt53",
-  "widgetName": "CellPlate_Finish"
+  "shortcuts": false,
+  "timePrecision": "None",
+  "topRow": 80,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "54kapxk44f",
+  "widgetName": "CellPlate_InstallationDate"
 }

@@ -1,12 +1,12 @@
 {
-  "gitSyncId": "693d011ae10968062f21244e_dcbee980-d210-4dc4-9713-daab2a9b8886",
+  "gitSyncId": "693d011ae10968062f21244e_8774f2fd-7a96-4cc7-9869-2d4c79b8f77b",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1000,
+          "bottomRow": 1230,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Summary",
-    "slug": "summary"
+    "name": "Photos",
+    "slug": "photos"
   }
 }

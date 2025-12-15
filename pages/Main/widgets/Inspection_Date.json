@@ -1,7 +1,7 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "1.5rem",
   "bottomRow": 23,
   "boxShadow": "none",
   "closeOnSelection": true,
@@ -11,9 +11,6 @@
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "borderRadius"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -22,7 +19,7 @@
       "key": "onDateSelected"
     }
   ],
-  "firstDayOfWeek": 0,
+  "firstDayOfWeek": "0",
   "isDisabled": false,
   "isLoading": false,
   "isRequired": false,
@@ -44,7 +41,7 @@
   "mobileRightColumn": 22,
   "mobileTopRow": 10,
   "needsErrorInfo": false,
-  "onDateSelected": "{{storeValue('SavedInspectionDate', Inspection_Date.formattedDate);}}",
+  "onDateSelected": "{{storeValue('SavedInspectionDate', Inspection_Date.selectedDate);}}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,

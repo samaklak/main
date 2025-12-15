@@ -1,0 +1,35 @@
+{
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 33,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "flexVerticalAlignment": "start",
+  "isCanvas": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isMirrored": true,
+  "isVisible": true,
+  "key": "u6eg1hu4qb",
+  "leftColumn": 0,
+  "mobileBottomRow": 33,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 0,
+  "mode": "CAMERA",
+  "needsErrorInfo": false,
+  "parentColumnSpace": 6.53125,
+  "parentId": "nauvcymtee",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "topRow": 0,
+  "type": "CAMERA_WIDGET",
+  "version": 1,
+  "widgetId": "nr2c6c5djj",
+  "widgetName": "Camera2"
+}

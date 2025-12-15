@@ -1,17 +1,17 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 13,
+  "bottomRow": 12,
   "boxShadow": "none",
-  "buttonColor": "#7f1d1d",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
-  "dynamicBindingPathList": [],
-  "dynamicTriggerPathList": [
+  "dynamicBindingPathList": [
     {
-      "key": "onClick"
+      "key": "buttonColor"
     }
   ],
+  "dynamicTriggerPathList": [],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -24,7 +24,6 @@
   "mobileRightColumn": 49,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Photos', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -35,9 +34,9 @@
   "responsiveBehavior": "hug",
   "rightColumn": 48,
   "text": "Photos",
-  "topRow": 9,
+  "topRow": 8,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "etq4bvyr57",
-  "widgetName": "Button_Unused1"
+  "widgetId": "nebt8xygix",
+  "widgetName": "Menu_Photos"
 }
